@@ -1,0 +1,37 @@
+  373  git branch -m main
+  374  git branch -a
+  375  git remote -v
+  376  git remote add origin https://github.com/GFuentesG/Checkpoint-GustavoFuentes.git
+  377  git remote -v
+  378  touch main.js index.html
+  379  ls
+  380  ls -a
+  381  git add .
+  382  git commit -m "commit 01 GustavoFuentes"
+  383  git push origin main
+  384  git checkout feature
+  385  git branch feature
+  386  git branch -v
+  387  git checkout feature
+  388  git branch -v
+  389  mkdir Hardware Software SeguridadInformatica
+  390  ls
+  391  touch ./Hardware/resumen.txt ./Software/resumen.txt ./SeguridadInformatica/resumen.txt
+  392  ls
+  393  git add .
+  394  git commit -m "commit 02 GustavoFuentes"
+  395  git push origin feature
+  396  git push -help
+  397  git checkout main
+  398  mv main.js resumenHardware.txt
+  399  ls
+  400  mv index.html resumenSoftware.txt
+  401  ls
+  402  nano resumensoftware.txt
+  403  cat resumensoftware.txt
+  404  vi resumenHardware.txt
+  405  cat resumenHardware.txt
+  406  pwd
+  407  touch comandos.txt
+  408  history
+
